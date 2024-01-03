@@ -1,56 +1,57 @@
 h2 {
-    color: burlywood;
+  color: burlywood;
 }
 
 #welcome {
-    color: red;
+  color: red;
 }
 
 a:hover {
-    text-decoration: solid red;
+  text-decoration: underline; /* or text-decoration: none; */
 }
 
 #milk {
-    color: hotpink;
+  color: hotpink;
 }
 
 #extra {
-    color: crimson;
+  color: crimson;
 }
 
 #little {
-    color: palevioletred;
+  color: palevioletred;
 }
 
 #creamless {
-    color: lightseagreen;
+  color: lightseagreen;
 }
 
 #desi {
-    color: dimgrey;
+  color: dimgrey;
 }
 
 #malay {
-    color: mediumslateblue;
+  color: mediumslateblue;
 }
 
 #chinese {
-    color: chocolate;
+  color: chocolate;
 }
 
 #location {
-    color: maroon;
+  color: maroon;
 }
 
+/* Remove the following rule if #style is not being used */
 #style {
-    color: red;
+  color: red;
 }
 
 #sale {
-    color: chartreuse;
-    background-color: black;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 122px;
+  color: chartreuse;
+  background-color: black;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 122px;
 }
