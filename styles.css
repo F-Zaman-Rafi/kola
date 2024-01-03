@@ -1,3 +1,4 @@
+/* General Styling */
 h2 {
   color: burlywood;
 }
@@ -10,6 +11,7 @@ a:hover {
   text-decoration: underline; /* or text-decoration: none; */
 }
 
+/* List Item Styling */
 #milk,
 #extra,
 #little,
@@ -17,54 +19,67 @@ a:hover {
 #desi,
 #malay,
 #chinese {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   padding: 7px;
   border: 2px dashed white;
 }
 
+/* Hover Styling for List Items */
+#milk:hover,
+#extra:hover,
+#little:hover,
+#creamless:hover,
+#desi:hover,
+#malay:hover,
+#chinese:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Individual Item Styling */
 #milk,
 #milk:hover {
-  background-color: hotpink; /* Change the background color */
+  background-color: hotpink;
 }
 
 #extra,
 #extra:hover {
-  background-color: crimson; /* Change the background color */
+  background-color: crimson;
 }
 
 #little,
 #little:hover {
-  background-color: palevioletred; /* Change the background color */
+  background-color: palevioletred;
 }
 
 #creamless,
 #creamless:hover {
-  background-color: lightseagreen; /* Change the background color */
+  background-color: lightseagreen;
 }
 
 #desi,
 #desi:hover {
-  background-color: dimgrey; /* Change the background color */
+  background-color: dimgrey;
 }
 
 #malay,
 #malay:hover {
-  background-color: mediumslateblue; /* Change the background color */
+  background-color: mediumslateblue;
 }
 
 #chinese,
 #chinese:hover {
-  background-color: chocolate; /* Change the background color */
+  background-color: chocolate;
 }
 
+/* Other Elements Styling */
 #location {
   color: maroon;
 }
 
-/* Remove the following rule if #style is not being used */
 #style {
-  color: red;
+  color: red; /* Adjust if needed */
 }
 
 #sale {
@@ -76,6 +91,7 @@ a:hover {
   border-radius: 122px;
 }
 
+/* Global Styling */
 * {
   text-align: center;
 }
