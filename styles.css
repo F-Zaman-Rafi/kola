@@ -10,53 +10,52 @@ a:hover {
   text-decoration: underline; /* or text-decoration: none; */
 }
 
-#milk {
-  color: hotpink;
-  background-color: black;
-  padding: 7px;
-  border: 2px dashed white;
-}
-
-#extra {
-  color: crimson;
-  background-color: black;
-  padding: 7px;
-  border: 2px dashed white;
-}
-
-#little {
-  color: palevioletred;
-  background-color: black;
-  padding: 7px;
-  border: 2px dashed white;
-}
-
-#creamless {
-  color: lightseagreen;
-  background-color: black;
-  padding: 7px;
-  border: 2px dashed white;
-}
-
-#desi {
-  color: dimgrey;
-  background-color: black;
-  padding: 7px;
-  border: 2px dashed white;
-}
-
-#malay {
-  color: mediumslateblue;
-  background-color: black;
-  padding: 7px;
-  border: 2px dashed white;
-}
-
+#milk,
+#extra,
+#little,
+#creamless,
+#desi,
+#malay,
 #chinese {
-  color: chocolate;
+  color: white;
   background-color: black;
   padding: 7px;
   border: 2px dashed white;
+}
+
+#milk,
+#milk:hover {
+  background-color: hotpink; /* Change the background color */
+}
+
+#extra,
+#extra:hover {
+  background-color: crimson; /* Change the background color */
+}
+
+#little,
+#little:hover {
+  background-color: palevioletred; /* Change the background color */
+}
+
+#creamless,
+#creamless:hover {
+  background-color: lightseagreen; /* Change the background color */
+}
+
+#desi,
+#desi:hover {
+  background-color: dimgrey; /* Change the background color */
+}
+
+#malay,
+#malay:hover {
+  background-color: mediumslateblue; /* Change the background color */
+}
+
+#chinese,
+#chinese:hover {
+  background-color: chocolate; /* Change the background color */
 }
 
 #location {
@@ -75,4 +74,12 @@ a:hover {
   margin-left: 30%;
   margin-right: 30%;
   border-radius: 122px;
+}
+
+* {
+  text-align: center;
+}
+
+#table {
+  text-align: center;
 }
