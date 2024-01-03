@@ -1,6 +1,6 @@
 /* General Styling */
 h2 {
-  color: burlywood;
+  color: forestgreen;
 }
 
 #welcome {
@@ -75,7 +75,7 @@ a:hover {
 
 /* Other Elements Styling */
 #location {
-  color: maroon;
+  color: green;
 }
 
 #style {
