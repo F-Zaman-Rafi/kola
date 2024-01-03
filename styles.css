@@ -12,30 +12,51 @@ a:hover {
 
 #milk {
   color: hotpink;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #extra {
   color: crimson;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #little {
   color: palevioletred;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #creamless {
   color: lightseagreen;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #desi {
   color: dimgrey;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #malay {
   color: mediumslateblue;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #chinese {
   color: chocolate;
+  background-color: black;
+  padding: 7px;
+  border: 2px dashed white;
 }
 
 #location {
