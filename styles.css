@@ -23,6 +23,8 @@ a:hover {
   background-color: white;
   padding: 7px;
   border: 2px dashed white;
+  margin-right:10%;
+  margin-left:10%;
 }
 
 /* Hover Styling for List Items */
