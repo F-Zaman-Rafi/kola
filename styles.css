@@ -1,3 +1,17 @@
+nav > ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.listt {
+  list-style: none;
+}
 /* General Styling */
 h2 {
   color: forestgreen;
@@ -23,8 +37,8 @@ a:hover {
   background-color: white;
   padding: 7px;
   border: 2px dashed white;
-  margin-right:10%;
-  margin-left:10%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* Hover Styling for List Items */
@@ -116,7 +130,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: white;
+  color: rgb(252, 0, 189);
 }
 label {
   display: block;
@@ -131,5 +145,15 @@ caption {
   color: red;
   font-size: large;
   font-weight: bold;
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+fieldset {
   margin-bottom: 10px;
 }
