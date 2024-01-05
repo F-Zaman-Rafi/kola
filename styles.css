@@ -1,3 +1,28 @@
+@keyframes scrollRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scrollRight 10s linear infinite;
+}
+
+#sale {
+  font-size: 250%;
+}
+@media screen and (max-width: 600px) {
+  /* Styles for smaller screens */
+}
+header {
+  margin: 0%;
+}
+
 nav > ul {
   display: flex;
   text-align: center;
@@ -35,10 +60,12 @@ a:hover {
 #chinese {
   color: black;
   background-color: white;
-  padding: 7px;
+  padding: 10px;
   border: 2px dashed white;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  text-align: center;
 }
 
 /* Hover Styling for List Items */
