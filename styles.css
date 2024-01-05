@@ -157,3 +157,9 @@ footer {
 fieldset {
   margin-bottom: 10px;
 }
+#submit {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: red;
+}

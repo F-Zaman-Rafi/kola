@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoga Success</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .success-container {
+        text-align: center;
+        z-index: 2;
+      }
+      #fireworks {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 1;
+        overflow: hidden;
+      }
+      .firework {
+        position: absolute;
+        background: radial-gradient(circle, #ff4500, #ff0000, transparent);
+        border-radius: 50%;
+        pointer-events: none;
+        transform-origin: 50% 50%;
+        animation: fireworks 0.8s ease-out both;
+      }
+      .firework::before,
+      .firework::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: radial-gradient(circle, #ff4500, #ff0000, transparent);
+        border-radius: 50%;
+        animation: sparks 1s linear both infinite;
+      }
+      .firework::before {
+        top: -180px;
+        left: 15px;
+      }
+      .firework::after {
+        left: -180px;
+        top: 15px;
+      }
+      @keyframes fireworks {
+        0% {
+          transform: scale(0);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      @keyframes sparks {
+        0% {
+          opacity: 0;
+          transform: translateY(0);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(400px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="success-container">
+      <h2>Congratulations!</h2>
+      <p>Apni successfully hoga mara kheyechen.</p>
+    </div>
+
+    <div id="fireworks">
+      <!-- Fireworks will be generated here using JavaScript -->
+    </div>
+
+    <script>
+      function createFirework() {
+        const firework = document.createElement("div");
+        firework.className = "firework";
+        firework.style.left = `${Math.random() * 100}vw`;
+        firework.style.animationDuration = `${Math.random() * 0.6 + 0.4}s`;
+        document.getElementById("fireworks").appendChild(firework);
+      }
+
+      // Generate fireworks on page load
+      for (let i = 0; i < 10; i++) {
+        createFirework();
+      }
+    </script>
+  </body>
+</html>

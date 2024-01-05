@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milk n Banana - Payment</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .payment-container {
+        text-align: center;
+      }
+      .payment-method {
+        margin-bottom: 20px;
+      }
+      #hoga,
+      #haat {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 0 10px;
+        transition: background-color 0.3s ease;
+      }
+      #hoga:hover,
+      #haat:hover {
+        background-color: #ff0000;
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .payment-method a {
+        animation: pulse 1.5s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="payment-container">
+      <h2>Select Payment Method</h2>
+
+      <div class="payment-method">
+        <a id="hoga" href="hoga.html">Hoga</a>
+        <a id="haat" href="haat.html">Haat</a>
+      </div>
+
+      <p>Choose your payment method: "Hoga" or "Haat".</p>
+    </div>
+  </body>
+</html>

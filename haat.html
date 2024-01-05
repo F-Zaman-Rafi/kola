@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haat Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .haat-container {
+        text-align: center;
+        z-index: 2;
+        position: relative;
+      }
+      #fist-animation {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        z-index: 1;
+        animation: fistAnimation 1s linear infinite;
+      }
+      @keyframes fistAnimation {
+        0%,
+        100% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        25% {
+          transform: translate(-50%, -50%) rotate(10deg);
+        }
+        50% {
+          transform: translate(-50%, -50%) rotate(-10deg);
+        }
+        75% {
+          transform: translate(-50%, -50%) rotate(5deg);
+        }
+      }
+      .sparkles {
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background-color: #ffe700;
+        border-radius: 50%;
+        opacity: 0;
+        animation: sparkleAnimation 1s linear infinite;
+      }
+      @keyframes sparkleAnimation {
+        0% {
+          opacity: 0;
+          transform: translateY(0) rotate(0deg);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(-50px) rotate(720deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="haat-container">
+      <h2>Congratulations</h2>
+      <p>
+        Apni successfully haat mara choose korechen. Apni akhon haat marte paren
+        👊
+      </p>
+
+      <!-- Sparkles -->
+      <div class="sparkles" style="top: 30%; left: 40%;"></div>
+      <div class="sparkles" style="top: 20%; left: 60%;"></div>
+      <div class="sparkles" style="top: 70%; left: 70%;"></div>
+    </div>
+  </body>
+</html>
