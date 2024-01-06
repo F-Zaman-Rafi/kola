@@ -1,199 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milk n Banana</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <header>
-      <marquee behavior="scroll" direction="right">
-        <h1 id="fnb">Milk n Banana</h1>
-      </marquee>
-      <nav>
-        <ul>
-          <li><a href="milk.html">Milk</a></li>
-          <li><a href="extra_creamy_milk.html">Extra Creamy Milk</a></li>
-          <li><a href="little_creamy_milk.html">Little Creamy Milk</a></li>
-          <li><a href="creamless_flat_milk.html">Creamless flat Milk</a></li>
-          <li><a href="desi_banana.html">Desi Banana</a></li>
-          <li><a href="malaysian_banana.html">Malaysian Banana</a></li>
-          <li><a href="chinese_banana.html">Chinese Banana</a></li>
-          <li><a href="extra_big_banana.html">Extra big Banana</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milk n Banana</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <br />
-    <h2 id="sale">Winter Sale</h2>
-    <h2 id="welcome">Welcome to our Restaurant</h2>
-    <br />
-    <h3>
-      <i><b>Here we've got</b></i>
-    </h3>
+<body>
+  <header>
+    <marquee behavior="scroll" direction="right">
+      <h1 id="fnb">Milk n Banana</h1>
+    </marquee>
+    <nav>
+      <ul>
+        <li><a href="milk.html">Milk</a></li>
+        <li><a href="extra_creamy_milk.html">Extra Creamy Milk</a></li>
+        <li><a href="little_creamy_milk.html">Little Creamy Milk</a></li>
+        <li><a href="creamless_flat_milk.html">Creamless flat Milk</a></li>
+        <li><a href="desi_banana.html">Desi Banana</a></li>
+        <li><a href="malaysian_banana.html">Malaysian Banana</a></li>
+        <li><a href="chinese_banana.html">Chinese Banana</a></li>
+        <li><a href="extra_big_banana.html">Extra big Banana</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <ul class="listt">
-      <li id="milk">Milk</li>
-      <li id="extra">Extra Creamy Milk</li>
-      <li id="little">Little Creamy Milk</li>
-      <li id="creamless">Creamless flat Milk</li>
-      <li id="desi">Desi Banana</li>
-      <li id="malay">Malaysian Banana</li>
-      <li id="chinese">Chinese Banana</li>
-      <li id="extra">Extra big Banana</li>
-    </ul>
+  <br />
+  <h2 id="sale">Winter Sale</h2>
+  <h2 id="welcome">Welcome to our Restaurant</h2>
+  <br />
+  <h3>
+    <i><b>Here we've got</b></i>
+  </h3>
 
+  <ul class="listt">
+    <li id="milk">Milk</li>
+    <li id="extra">Extra Creamy Milk</li>
+    <li id="little">Little Creamy Milk</li>
+    <li id="creamless">Creamless flat Milk</li>
+    <li id="desi">Desi Banana</li>
+    <li id="malay">Malaysian Banana</li>
+    <li id="chinese">Chinese Banana</li>
+    <li id="extra">Extra big Banana</li>
+  </ul>
+
+  <br /><br />
+  <h2>To place order please fill up the form</h2>
+  <form>
+    <label for="Your name">
+      Your name: <input type="text" placeholder="Your name" />
+    </label>
+    <label for="Email">
+      Your Email:
+      <input type="email" placeholder="example@kolahub.com" id="Email" />
+    </label>
+
+    <fieldset>
+      <legend>Pick your desired Milk</legend>
+      <label for="Milk"><input type="radio" name="Milk" id="Milk" />Milk</label>
+      <label for="Extra Creamy Milk"><input type="radio" name="Milk" id="Extra Creamy Milk" />Extra Creamy
+        Milk</label>
+      <label for="Little Creamy Milk"><input type="radio" name="Milk" id="Little Creamy Milk" />Little
+        Creamy Milk</label>
+      <label for="Creamless flat Milk"><input type="radio" name="Milk" id="Creamless flat Milk" />Creamless
+        flat Milk</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pick your desired Banana</legend>
+      <label for="Desi Banana"><input type="radio" name="Banana" id="Desi Banana" />Desi
+        Banana</label>
+      <label for="Malaysian Banana"><input type="radio" name="Banana" id="Malaysian Banana" />Malaysian
+        Banana</label>
+      <label for="Chinese Banana"><input type="radio" name="Banana" id="Chinese Banana" />Chinese
+        Banana</label>
+      <label for="Extra big Banana"><input type="radio" name="Banana" id="Extra big Banana" />Extra big
+        Banana</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Or you could just customize your order here</legend>
+      <label for="Milk"><input type="checkbox" name="customize" id="Milk" />Milk</label>
+      <label for="Extra Creamy Milk"><input type="checkbox" name="customize" id="Milk" />Extra Creamy
+        Milk</label>
+      <label for="Little Creamy Milk"><input type="checkbox" name="customize" id="Milk" />Little Creamy
+        Milk</label>
+      <label for="Creamless flat Milk"><input type="checkbox" name="customize" id="Milk" />Creamless flat
+        Milk</label>
+      <label for="Desi Banana"><input type="checkbox" name="customize" id="Milk" />Desi
+        Banana</label>
+      <label for="Malaysian Banana"><input type="checkbox" name="customize" id="Milk" />Malaysian
+        Banana</label>
+      <label for="Chinese Banana"><input type="checkbox" name="customize" id="Milk" />Chinese
+        Banana</label>
+      <label for="Extra big Banana"><input type="checkbox" name="customize" id="Milk" />Extra big
+        Banana</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Special Instruction</legend>
+      <textarea name="Special" id="Instruction" cols="30" rows="10"></textarea>
+    </fieldset>
+    <a href="payment.html">
+      <button type="button" id="submit">Place Order</button>
+    </a>
     <br /><br />
-    <h2>To place order please fill up the form</h2>
-    <form>
-      <label for="Your name">
-        Your name: <input type="text" placeholder="Your name" />
-      </label>
-      <label for="Email">
-        Your Email:
-        <input type="email" placeholder="example@kolahub.com" id="Email" />
-      </label>
+    <input type="reset" value="Reset" />
+  </form>
 
-      <fieldset>
-        <legend>Pick your desired Milk</legend>
-        <label for="Milk"
-          ><input type="radio" name="Milk" id="Milk" />Milk</label
-        >
-        <label for="Extra Creamy Milk"
-          ><input type="radio" name="Milk" id="Extra Creamy Milk" />Extra Creamy
-          Milk</label
-        >
-        <label for="Little Creamy Milk"
-          ><input type="radio" name="Milk" id="Little Creamy Milk" />Little
-          Creamy Milk</label
-        >
-        <label for="Creamless flat Milk"
-          ><input type="radio" name="Milk" id="Creamless flat Milk" />Creamless
-          flat Milk</label
-        >
-      </fieldset>
+  <br /><br /><br />
+  <b><a id="location" href="location.html">Our Location</a></b>
 
-      <fieldset>
-        <legend>Pick your desired Banana</legend>
-        <label for="Desi Banana"
-          ><input type="radio" name="Banana" id="Desi Banana" />Desi
-          Banana</label
-        >
-        <label for="Malaysian Banana"
-          ><input type="radio" name="Banana" id="Malaysian Banana" />Malaysian
-          Banana</label
-        >
-        <label for="Chinese Banana"
-          ><input type="radio" name="Banana" id="Chinese Banana" />Chinese
-          Banana</label
-        >
-        <label for="Extra big Banana"
-          ><input type="radio" name="Banana" id="Extra big Banana" />Extra big
-          Banana</label
-        >
-      </fieldset>
+  <br /><br /><br />
+  <table>
+    <!-- <thead></thead> -->
+    <tbody>
+      <caption>
+        Price List
+      </caption>
+      <br />
+      <tr>
+        <td>Items</td>
+        <td>Price</td>
+      </tr>
+      <tr>
+        <td>Milk</td>
+        <td>20$</td>
+      </tr>
+      <tr>
+        <td>Extra Creamy Milk</td>
+        <td>50$</td>
+      </tr>
+      <tr>
+        <td>Little Creamy Milk</td>
+        <td>25$</td>
+      </tr>
+      <tr>
+        <td>Creamless flat Milk</td>
+        <td>10$</td>
+      </tr>
+      <tr>
+        <td>Desi Banana</td>
+        <td>90$</td>
+      </tr>
+      <tr>
+        <td>Malaysian Banana</td>
+        <td>60$</td>
+      </tr>
+      <tr>
+        <td>Chinese Banana</td>
+        <td>11$</td>
+      </tr>
+      <tr>
+        <td>Extra big Banana</td>
+        <td>120$</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
 
-      <fieldset>
-        <legend>Or you could just customize your order here</legend>
-        <label for="Milk"
-          ><input type="checkbox" name="customize" id="Milk" />Milk</label
-        >
-        <label for="Extra Creamy Milk"
-          ><input type="checkbox" name="customize" id="Milk" />Extra Creamy
-          Milk</label
-        >
-        <label for="Little Creamy Milk"
-          ><input type="checkbox" name="customize" id="Milk" />Little Creamy
-          Milk</label
-        >
-        <label for="Creamless flat Milk"
-          ><input type="checkbox" name="customize" id="Milk" />Creamless flat
-          Milk</label
-        >
-        <label for="Desi Banana"
-          ><input type="checkbox" name="customize" id="Milk" />Desi
-          Banana</label
-        >
-        <label for="Malaysian Banana"
-          ><input type="checkbox" name="customize" id="Milk" />Malaysian
-          Banana</label
-        >
-        <label for="Chinese Banana"
-          ><input type="checkbox" name="customize" id="Milk" />Chinese
-          Banana</label
-        >
-        <label for="Extra big Banana"
-          ><input type="checkbox" name="customize" id="Milk" />Extra big
-          Banana</label
-        >
-      </fieldset>
-
-      <fieldset>
-        <legend>Special Instruction</legend>
-        <textarea
-          name="Special"
-          id="Instruction"
-          cols="30"
-          rows="10"
-        ></textarea>
-      </fieldset>
-      <a href="payment.html">
-        <button type="button" id="submit">Place Order</button>
-      </a>
-      <br /><br />
-      <input type="reset" value="Reset" />
-    </form>
-
-    <br /><br /><br />
-    <b><a id="location" href="location.html">Our Location</a></b>
-
-    <br /><br /><br />
-    <table>
-      <!-- <thead></thead> -->
-      <tbody>
-        <caption>
-          Price List
-        </caption>
-        <br />
-        <tr>
-          <td>Items</td>
-          <td>Price</td>
-        </tr>
-        <tr>
-          <td>Milk</td>
-          <td>20$</td>
-        </tr>
-        <tr>
-          <td>Extra Creamy Milk</td>
-          <td>50$</td>
-        </tr>
-        <tr>
-          <td>Little Creamy Milk</td>
-          <td>25$</td>
-        </tr>
-        <tr>
-          <td>Creamless flat Milk</td>
-          <td>10$</td>
-        </tr>
-        <tr>
-          <td>Desi Banana</td>
-          <td>90$</td>
-        </tr>
-        <tr>
-          <td>Malaysian Banana</td>
-          <td>60$</td>
-        </tr>
-        <tr>
-          <td>Chinese Banana</td>
-          <td>11$</td>
-        </tr>
-        <tr>
-          <td>Extra big Banana</td>
-          <td>120$</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
 </html>
